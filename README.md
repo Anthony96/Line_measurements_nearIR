@@ -5,11 +5,22 @@
 The CEERS survey and data are presented in Section 2.1 of Calabro et al. (2023), while the sample selection is described in Section 2.1.3 of the same paper. 
 In brief, we select those galaxies in which the spectrum covers at least the $H\beta$ + [OIII] triplet and the $Pa\beta$ + [Fe II] triplet. For the final sample, in addition to the two above triplets, we require the identification of the $H\alpha$ + [N II] triplet and the [S III] $9530$ &angst; line, as the presence of all these lines are essential requirements for the analysis of optical and near-IR diagnostics presented in the paper. With these criteria, we have selected 65 galaxies between $z= 1$ and $z= 3$, among which 27 galaxies have $z < 1.75$ and thus also have $Pa\alpha$ detected in the spectrum.
 
+# Main spectroscopic properties of the galaxies
+| column name | units | description |
+| --- | --- | --- |
+| ID | - | ID of the galaxy in the CEERS MSA catalog
+| RA | deg | measured underlying continuum of the line
+| DEC | deg | central wavelength of the best-fit gaussian
+| specz | - | spectroscopic redshift
+| Mass | log<sub>10</sub> M<sub>sun</sub> | MSA pointing where the source was observed
+| e_Mass | log<sub>10</sub> M<sub>sun</sub> | MSA pointing where the source was observed
+
+
 # Emission line measurements
 The emission lines are measured with MPFIT (GitHub Repository: stsci.tools/lib/stsci/tools/nmpfit.py, Markwardt et al. 2009) following the procedure explained in Section 2.2 of Calabro et al. (2023). 
 We include in the table XXXX.txt the following information for each line :
-| suffix | units | description |
-| --- | --- | --- |
+| column suffix | units | description |
+| ---- | --- | --- |
 | _lc | micron | central wavelength of the best-fit gaussian
 | _sigma_V | micron | central wavelength of the best-fit gaussian
 | _flux | micron | measured flux of the line
@@ -21,8 +32,9 @@ The $1\sigma$ uncertainties on all parameters are indicated with xxxxx
 <hr><hr>
 The emission lines fitted are included in the following list : 
 
-| column name | emission line |
-| --- | --- |
+
+| column prefix | emission line |
+| ---- | --- |
 | CII_1335 | $1335$ &angst; |
 | CIV_1551 | $1550.78$ &angst; |
 | HeII_1640 | $1640.43$ &angst; |
