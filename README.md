@@ -9,25 +9,31 @@ In brief, we select those galaxies in which the spectrum covers at least the $H\
 | column name | units | description |
 | --- | --- | --- |
 | ID | - | ID of the galaxy in the CEERS MSA catalog
-| RA | deg | measured underlying continuum of the line
-| DEC | deg | central wavelength of the best-fit gaussian
+| RA | deg | Right Ascension of the source (this refers to the center of the MSA as observed by CEERS)
+| DEC | deg | Declination of the source (this refers to the center of the MSA as observed by CEERS)
 | specz | - | spectroscopic redshift
-| Mass | log<sub>10</sub> M<sub>sun</sub> | MSA pointing where the source was observed
-| e_Mass | log<sub>10</sub> M<sub>sun</sub> | MSA pointing where the source was observed
 
 
 # Emission line measurements
 The emission lines are measured with MPFIT (GitHub Repository: stsci.tools/lib/stsci/tools/nmpfit.py, Markwardt et al. 2009) following the procedure explained in Section 2.2 of Calabro et al. (2023). 
-We include in the table XXXX.txt the following information for each line :
+We include two table in the repository: 
+-  *public_release_line_meas_Calabro23_vers1_optical.txt* including the rest-frame optical line measurements (i.e., from $H\beta$ to the [SII] doublet at $6719$-$6731$ &angst;)
+- *public_release_line_meas_Calabro23_vers1_nearIR.txt* including all the rest-frame near-infrared lines from [SIII] $9530$ &angst; to $Pa\alpha$.
+
+#
+**PAGE UNDER CONSTRUCTION \
+N.B. The tables with the measurements will be added soon !**
+#
+
+We include in each table the following information for each line :
 | column suffix | units | description |
 | ---- | --- | --- |
-| _lc | micron | central wavelength of the best-fit gaussian
-| _sigma_V | micron | central wavelength of the best-fit gaussian
-| _flux | micron | measured flux of the line
-| _cont | micron | measured underlying continuum of the line
-| _lc | micron | central wavelength of the best-fit gaussian
+| _flux | $10^{-19}$ $erg/s/cm^2$ | measured flux of the line 
+| _flux_err | $10^{-19}$ $erg/s/cm^2$ | $1\sigma$ uncertainty on the flux 
+| _cont | $10^{-19}$ $erg/s/cm^2$ | measured underlying continuum of the line 
+| _sigma_V | km/s | observed $\sigma$ of the best-fit gaussian of the line
 
-The $1\sigma$ uncertainties on all parameters are indicated with xxxxx
+**N.B. If the error value is $-1$ (i.e., _flux_err $=-1$), the flux of the corresponding emission line should be treated as an upper limit.**
 
 <hr><hr>
 The emission lines fitted are included in the following list : 
@@ -35,10 +41,6 @@ The emission lines fitted are included in the following list :
 
 | column prefix | emission line |
 | ---- | --- |
-| CII_1335 | $1335$ &angst; |
-| CIV_1551 | $1550.78$ &angst; |
-| HeII_1640 | $1640.43$ &angst; |
-| CIII_1909 | $1909$ &angst; |
 | Hbeta | $H\beta$ |
 | OIII_5007 | [OIII] $5006.84$ &angst; |
 | Halpha | $H\alpha$ |
