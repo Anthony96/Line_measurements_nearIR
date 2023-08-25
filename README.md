@@ -10,7 +10,7 @@ The emission lines are measured with MPFIT (Markwardt et al. 2009) following the
 The spectroscopic redshift z<sub>spec</sub> and the velocity width $\sigma$ of the lines are determined from the highest S/N emission line (typically $H \alpha$ or [SIII] $9530.62$). **These values are then fixed when fitting the remaining lines**, with a tolerance of $500\ km/s$ and $100\ km/s$, respectively. 
 
 #
-In this repository we include the table *public_release_line_meas_Calabro23_vers1_optical.txt*, with the main properties of the galaxies in the first three columns :
+In this repository we include the table *public_release_line_meas_Calabro23_v1.txt*, with the main properties of the galaxies in the first three columns :
 
 | column name | units | description |
 | --- | --- | --- |
@@ -25,7 +25,7 @@ then we include for each line the following information :
 | _flux_err | $10^{-19}$ $erg/s/cm^2$ | $1\sigma$ uncertainty on the flux 
 | _cont | $10^{-19}$ $erg/s/cm^2$ | measured underlying continuum of the line 
 | _sigma_V | km/s | observed $\sigma$ of the best-fit gaussian of the line (only for $H\beta$, $H\alpha$,[SIII] $9530.62$, HeI $10830$, $Pa\beta$, $Pa\alpha$)
-| _redshift | - | redshift estimated from the central wavelength of the best-fit gaussian as</br> [$\lambda$<sub>central</sub>/$\lambda$<sub>line, restframe</sub>-1] (only for $H\beta$, $H\alpha$,</br> [SIII] $9530.62$, HeI $10830$, $Pa\beta$, $Pa\alpha$)
+| _redshift | - | redshift estimated from the central wavelength of the best-fit gaussian as</br> [ $\lambda$<sub>central</sub>/ $\lambda$<sub>line, restframe</sub>-1] (only for $H\beta$, $H\alpha$,</br> [SIII] $9530.62$, HeI $10830$, $Pa\beta$, $Pa\alpha$)
 
 **N.B. If the error value is $-1$ (i.e., _flux_err $=-1$), the flux of the corresponding emission line should be treated as an upper limit.**
 
