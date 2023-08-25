@@ -5,11 +5,13 @@ The CEERS survey and data are presented in Section 2.1 of Calabro et al. (2023),
 In brief, we select those galaxies in which the spectrum covers at least the $H\beta$ + [OIII] triplet and the $Pa\beta$ + [Fe II] triplet. For the final sample, in addition to the two above triplets, we require the identification of the $H\alpha$ + [N II] triplet and the [S III] $9530$ &angst; line, as the presence of all these lines are essential requirements for the analysis of optical and near-IR diagnostics presented in the paper. With these criteria, we have selected 65 galaxies between $z= 1$ and $z= 3$, among which 27 galaxies have $z < 1.75$ and $Pa\alpha$ is detected in the spectrum.
 
 # Table with emission line measurements 
+
+## Methodology
 The emission lines are measured with MPFIT (Markwardt et al. 2009) following the procedure explained in Section 2.2 of Calabro et al. (2023). 
 
 The spectroscopic redshift z<sub>spec</sub> and the velocity width $\sigma$ of the lines are determined from the highest S/N emission line (typically $H \alpha$ or [SIII] $9530.62$). **These values are then fixed when fitting the remaining lines**, with a tolerance of $500\ km/s$ and $100\ km/s$, respectively. 
 
-#
+## Results
 In this repository we include the table *public_release_line_meas_Calabro23_v1.txt*, with the main properties of the galaxies in the first three columns :
 
 | column name | units | description |
