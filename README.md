@@ -1,9 +1,9 @@
 # Line_measurements_nearIR
- Table with measurements of emission lines observed with JWST/NIRSpec in medium resolution mode in CEERS galaxies at redshifts $0 < z < 3$ selected as described in Calabro et al. (2023) : https://arxiv.org/abs/2306.08605
+ Table with measurements of emission lines observed with JWST/NIRSpec in medium resolution mode ($R \simeq 1000$) in CEERS galaxies at redshifts $0 < z < 3$ selected as described in Calabro et al. (2023) : https://arxiv.org/abs/2306.08605
 
 # Sample description
 The CEERS survey and data are presented in Section 2.1 of Calabro et al. (2023), while the sample selection is described in Section 2.1.3 of the same paper. 
-In brief, we select those galaxies in which the spectrum covers at least the $H\beta$ + [OIII] triplet and the $Pa\beta$ + [Fe II] triplet. For the final sample, in addition to the two above triplets, we require the identification of the $H\alpha$ + [N II] triplet and the [S III] $9530$ &angst; line, as the presence of all these lines are essential requirements for the analysis of optical and near-IR diagnostics presented in the paper. With these criteria, we have selected 65 galaxies between $z= 1$ and $z= 3$, among which 27 galaxies have $z < 1.75$ and thus also have $Pa\alpha$ detected in the spectrum.
+In brief, we select those galaxies in which the spectrum covers at least the $H\beta$ + [OIII] triplet and the $Pa\beta$ + [Fe II] triplet. For the final sample, in addition to the two above triplets, we require the identification of the $H\alpha$ + [N II] triplet and the [S III] $9530$ &angst; line, as the presence of all these lines are essential requirements for the analysis of optical and near-IR diagnostics presented in the paper. With these criteria, we have selected 65 galaxies between $z= 1$ and $z= 3$, among which 27 galaxies have $z < 1.75$ and $Pa\alpha$ is detected in the spectrum.
 
 # Main spectroscopic properties of the galaxies
 | column name | units | description |
@@ -11,7 +11,7 @@ In brief, we select those galaxies in which the spectrum covers at least the $H\
 | ID | - | ID of the galaxy in the CEERS MSA catalog
 | RA | deg | Right Ascension of the source (this refers to the center of the MSA as observed by CEERS)
 | DEC | deg | Declination of the source (this refers to the center of the MSA as observed by CEERS)
-| specz | - | spectroscopic redshift
+| specz | - | spectroscopic redshift determined from the highest S/N line (typically $H \alpha$). This value is fixed (with a tolerance of $500\ km/s$) when fitting the remaining lines of the spectrum. 
 
 
 # Emission line measurements
