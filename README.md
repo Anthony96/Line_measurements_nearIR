@@ -1,5 +1,4 @@
-# Line_measurements_nearIR
- Table with measurements of emission lines observed with JWST/NIRSpec in medium resolution mode ($R \simeq 1000$) in CEERS galaxies at redshifts $0 < z < 3$ selected as described in Calabro et al. (2023) : https://arxiv.org/abs/2306.08605
+Table with the measurements of emission lines observed with JWST/NIRSpec in medium resolution mode ($R \simeq 1000$) in CEERS galaxies at redshifts $0 < z < 3$, selected as described in Calabro et al. (2023) : https://arxiv.org/abs/2306.08605
 
 # Sample description
 The CEERS survey and data are presented in Section 2.1 of Calabro et al. (2023), while the sample selection is described in Section 2.1.3 of the same paper. 
@@ -37,17 +36,17 @@ The emission lines fitted and reported in the table are listed below :
 | column prefix | emission line |
 | ---- | --- |
 | Hb | $H\beta$ |
-| OIII | [OIII] $5006.84$ &angst; |
+| OIII_5007 | [OIII] $5006.84$ &angst; |
 | Ha | $H\alpha$ |
-| NII | [NII] $6583.45$ &angst; |
+| NII_6583 | [NII] $6583.45$ &angst; |
+| SII | [SII] $6719$ + $6731$ &angst; |
 | SIII_9531 | [SIII] $9530.62$ &angst; |
 | CI_9850 | [CI]  $9850.26$ &angst; |
 | HeI_10830 | HeI $10830$ &angst; |
-| PaGamma | $Pa\gamma$ |
+| PaG | $Pa\gamma$ |
 | PII_1188 | [PII] $11882.8$ &angst; |
 | FeII_1257 | [FeII] $12566.8$ &angst; |
-| PaBeta | $Pa\beta$ |
-| FeII_132 | [FeII] $13205.5$ &angst; |
+| PaB | $Pa\beta$ |
 | FeII_164 | [FeII] $16435.5$ &angst; |
-| PaAlpha | $Pa\alpha$ |
+| PaA | $Pa\alpha$ |
 |    |
