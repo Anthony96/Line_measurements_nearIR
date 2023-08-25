@@ -27,7 +27,7 @@ then we include for each line the following information :
 | _sigma_V | km/s | observed $\sigma$ of the best-fit gaussian of the line (only for $H\beta$, $H\alpha$,[SIII] $9530.62$, HeI $10830$, $Pa\beta$, $Pa\alpha$)
 | _redshift | - | redshift estimated from the central wavelength of the best-fit gaussian as</br> [ $\lambda$<sub>central</sub>/ $\lambda$<sub>line, restframe</sub> - 1] (only for $H\beta$, $H\alpha$, [SIII] $9530.62$, HeI $10830$, $Pa\beta$, $Pa\alpha$)
 
-**N.B. If the error value is $-1$ (i.e., _flux_err $=-1$), the flux of the corresponding emission line should be treated as an upper limit.**
+**N.B. If the error value is $-1$ (i.e., _flux_err $=-1$), the flux of the corresponding emission line should be treated as an upper limit at $1\sigma$.**
 
 <hr><hr>
 The emission lines fitted and reported in the table are listed below : 
