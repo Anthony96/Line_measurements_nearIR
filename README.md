@@ -40,6 +40,7 @@ The emission lines fitted and reported in the table are listed below :
 | OIII | [OIII] $5006.84$ &angst; |
 | Ha | $H\alpha$ |
 | NII | [NII] $6583.45$ &angst; |
+| SII | [SII] $6719$ + $6731$ &angst; |
 | SIII_9531 | [SIII] $9530.62$ &angst; |
 | CI_9850 | [CI]  $9850.26$ &angst; |
 | HeI_10830 | HeI $10830$ &angst; |
