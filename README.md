@@ -8,7 +8,7 @@ In brief, we select those galaxies in which the spectrum covers at least the $H\
 # Table with emission line measurements 
 The emission lines are measured with MPFIT (Markwardt et al. 2009) following the procedure explained in Section 2.2 of Calabro et al. (2023). 
 
-The spectroscopic redshift z<sub>spec</sub> and the velocity width $\sigma$ of the lines are determined from the highest S/N emission line (typically $H \alpha$ or [SIII] $9530.62$). These values are then fixed when fitting the remaining lines, with a tolerance of $500\ km/s$ and $100\ km/s$, respectively. 
+The spectroscopic redshift z<sub>spec</sub> and the velocity width $\sigma$ of the lines are determined from the highest S/N emission line (typically $H \alpha$ or [SIII] $9530.62$). **These values are then fixed when fitting the remaining lines**, with a tolerance of $500\ km/s$ and $100\ km/s$, respectively. 
 
 #
 In this repository we include the table *public_release_line_meas_Calabro23_vers1_optical.txt*, with the main properties of the galaxies in the first three columns :
@@ -31,7 +31,7 @@ then we include for each line the following information :
 **N.B. If the error value is $-1$ (i.e., _flux_err $=-1$), the flux of the corresponding emission line should be treated as an upper limit.**
 
 <hr><hr>
-The emission lines fitted and reported in the table are included in the following list : 
+The emission lines fitted and reported in the table are listed below : 
 
 
 | column prefix | emission line |
