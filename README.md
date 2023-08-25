@@ -44,10 +44,10 @@ The emission lines fitted and reported in the table are listed below :
 | SIII_9531 | [SIII] $9530.62$ &angst; |
 | CI_9850 | [CI]  $9850.26$ &angst; |
 | HeI_10830 | HeI $10830$ &angst; |
-| PaGamma | $Pa\gamma$ |
+| PaG | $Pa\gamma$ |
 | PII_1188 | [PII] $11882.8$ &angst; |
 | FeII_1257 | [FeII] $12566.8$ &angst; |
-| PaBeta | $Pa\beta$ |
+| PaB | $Pa\beta$ |
 | FeII_164 | [FeII] $16435.5$ &angst; |
-| PaAlpha | $Pa\alpha$ |
+| PaA | $Pa\alpha$ |
 |    |
