@@ -1,5 +1,5 @@
 # Line_measurements_nearIR
- Table with measurements of emission lines observed with JWST/NIRSpec in medium resolution mode in CEERS galaxies at redshifts $0<z<3$ selected as described in Calabro et al. (2023) : https://arxiv.org/abs/2306.08605
+ Table with measurements of emission lines observed with JWST/NIRSpec in medium resolution mode in CEERS galaxies at redshifts $0 < z < 3$ selected as described in Calabro et al. (2023) : https://arxiv.org/abs/2306.08605
 
 # Sample description
 The CEERS survey and data are presented in Section 2.1 of Calabro et al. (2023), while the sample selection is described in Section 2.1.3 of the same paper. 
@@ -17,7 +17,7 @@ In brief, we select those galaxies in which the spectrum covers at least the $H\
 # Emission line measurements
 The emission lines are measured with MPFIT (GitHub Repository: stsci.tools/lib/stsci/tools/nmpfit.py, Markwardt et al. 2009) following the procedure explained in Section 2.2 of Calabro et al. (2023). 
 We include two table in the repository: 
--  *public_release_line_meas_Calabro23_vers1_optical.txt* including the rest-frame optical line measurements (i.e., from $H\beta$ to the [SII] doublet at $6719$-$6731$ &angst;)
+-  *public_release_line_meas_Calabro23_vers1_optical.txt* including the rest-frame optical line measurements (i.e., from $H\beta$ to the [SII] doublet at $6719$ - $6731$ &angst;)
 - *public_release_line_meas_Calabro23_vers1_nearIR.txt* including all the rest-frame near-infrared lines from [SIII] $9530$ &angst; to $Pa\alpha$.
 
 #
