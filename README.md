@@ -37,9 +37,9 @@ The emission lines fitted and reported in the table are listed below :
 | column prefix | emission line |
 | ---- | --- |
 | Hb | $H\beta$ |
-| OIII | [OIII] $5006.84$ &angst; |
+| OIII_5007 | [OIII] $5006.84$ &angst; |
 | Ha | $H\alpha$ |
-| NII | [NII] $6583.45$ &angst; |
+| NII_6583 | [NII] $6583.45$ &angst; |
 | SII | [SII] $6719$ + $6731$ &angst; |
 | SIII_9531 | [SIII] $9530.62$ &angst; |
 | CI_9850 | [CI]  $9850.26$ &angst; |
@@ -48,7 +48,6 @@ The emission lines fitted and reported in the table are listed below :
 | PII_1188 | [PII] $11882.8$ &angst; |
 | FeII_1257 | [FeII] $12566.8$ &angst; |
 | PaBeta | $Pa\beta$ |
-| FeII_132 | [FeII] $13205.5$ &angst; |
 | FeII_164 | [FeII] $16435.5$ &angst; |
 | PaAlpha | $Pa\alpha$ |
 |    |
