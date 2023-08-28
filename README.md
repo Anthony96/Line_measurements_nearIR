@@ -1,4 +1,4 @@
-Table with the measurements of emission lines observed with JWST/NIRSpec in medium resolution mode ($R \simeq 1000$) in CEERS galaxies at redshifts $0 < z < 3$, selected as described in Calabro et al. (2023) : https://arxiv.org/abs/2306.08605 
+Table with the measurements of emission lines observed with JWST/NIRSpec and M-grating ($R \simeq 1000$) mode for CEERS emission line galaxies at redshifts $1 < z < 3$, selected as described in Calabro et al. (2023) : https://arxiv.org/abs/2306.08605 
 For any inquiry, contact me at antonello.calabro@inaf.it
 
 # Sample description
