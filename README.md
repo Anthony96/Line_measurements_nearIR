@@ -31,6 +31,7 @@ then we include for each line the following information :
 | _redshift | - | redshift estimated from the central wavelength of the best-fit gaussian as</br> [ $\lambda$<sub>central</sub>/ $\lambda$<sub>line, restframe</sub> - 1] (only for $H\beta$, $H\alpha$, [SIII] $9530.62$, HeI $10830$, $Pa\beta$, $Pa\alpha$)
 
 **N.B. If the error value is $-1$ (i.e., _flux_err $=-1$), the flux of the corresponding emission line should be treated as an upper limit at $1\sigma$.**
+**N.B. For the broad line AGNs selected in the paper, the flux, redshift, and velocity width of permitted lines always refer to the narrow component.**
 
 <hr><hr>
 The emission lines fitted and reported in the table are listed below : 
